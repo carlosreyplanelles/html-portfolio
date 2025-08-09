@@ -1,0 +1,34 @@
+:root {
+	--background-color: #1b262c;
+	--secondary-color: #0f4c75;
+	--article-color: #3282b8;
+	--font-color: #bbe1fa;
+}
+
+.container {
+	border: 2px solid black;
+	width: 90%;
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 0.5rem;
+	background-color: var(--article-color);
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	background-color: var(--background-color);
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	color: var(--font-color);
+}
+.field_label {
+	font-weight: bold;
+}
+.section_container {
+	background-color: var(--secondary-color);
+	padding: 0.25rem;
+	border-radius: 0.5rem;
+}
